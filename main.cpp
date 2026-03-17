@@ -10,7 +10,7 @@ int main() {
     intQueue.push(30);
     intQueue.push(15);
 
-    std::cout << "Очередь целых чисел (int): ";
+    std::cout << "РћС‡РµСЂРµРґСЊ С†РµР»С‹С… С‡РёСЃРµР» (int): ";
     while (!intQueue.isEmpty()) {
         std::cout << intQueue.front() << " ";
         intQueue.pop();
@@ -18,11 +18,11 @@ int main() {
     std::cout << std::endl;
 
     Queue<std::string> stringQueue;
-    stringQueue.push("первый");
-    stringQueue.push("второй");
-    stringQueue.push("третий");
+    stringQueue.push("РїРµСЂРІС‹Р№");
+    stringQueue.push("РІС‚РѕСЂРѕР№");
+    stringQueue.push("С‚СЂРµС‚РёР№");
 
-    std::cout << "Очередь строк (string): ";
+    std::cout << "РћС‡РµСЂРµРґСЊ СЃС‚СЂРѕРє (string): ";
     while (!stringQueue.isEmpty()) {
         std::cout << stringQueue.front() << " ";
         stringQueue.pop();
@@ -33,6 +33,6 @@ int main() {
         intQueue.pop();
     }
     else {
-        std::cout << "Очередь уже пуста, удаление невозможно." << std::endl;
+        std::cout << "РћС‡РµСЂРµРґСЊ СѓР¶Рµ РїСѓСЃС‚Р°, СѓРґР°Р»РµРЅРёРµ РЅРµРІРѕР·РјРѕР¶РЅРѕ." << std::endl;
     }
 }
