@@ -1,3 +1,3 @@
-# vertma-Cpp_Task3_-6-
+# Cpp_Task3_-6-
 
 Задача 3: Очередь.
